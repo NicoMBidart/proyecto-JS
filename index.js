@@ -1,5 +1,6 @@
 
-
+alert ("Bienvenidos a Fuera de Juego!");
+console.log ("Primera PreEntrega")
 
 let respuesta = prompt ("Cuanto tenes para gastar?");
 if (respuesta > 20000){
