@@ -1,0 +1,174 @@
+[
+    {
+        "id": "Campera-ES-01",
+        "titulo": "Campe España 2006",
+        "img": "../img/chaquetaespaña2004.jpg",
+        "categoria": {
+            "nombre": "CamperaES",
+            "id": "España"
+        },
+        "precio": 50
+    },
+    {
+        "id": "Campera-ES-02",
+        "titulo": "Campe España 2007",
+        "img": "../img/chaquetaespaña2006.jpg",
+        "categoria": {
+            "nombre": "CamperaES",
+            "id": "España"
+        },
+        "precio": 50
+    },
+    {
+        "id": "Campera-ES-03",
+        "titulo": "Campe España 2010",
+        "img": "../img/chaquetaespaña2007.jpg",
+        "categoria": {
+            "nombre": "CamperaES",
+            "id": "España"
+        },
+        "precio": 55
+    },
+    {
+        "id": "Campera-ES-04",
+        "titulo": "Campe España Mundial 2006",
+        "img": "../img/chaquetaespaña2010.jpg",
+        "categoria": {
+            "nombre": "CamperaES",
+            "id": "España"
+        },
+        "precio": 55
+    },
+    {
+        "id": "Campera-ES-05",
+        "titulo": "Campe España 2004",
+        "img": "../img/chaquetaespaña2007.jpg",
+        "categoria": {
+            "nombre": "CamperaES",
+            "id": "España"
+        },
+        "precio": 50
+    },
+    {
+        "id": "Campera-IT-01",
+        "titulo": "Campe Inter",
+        "img": "../img/chaquetaitalia.avif",
+        "categoria": {
+            "nombre": "CamperaIT",
+            "id": "Italia"
+        },
+        "precio": 45
+    },
+    {
+        "id": "Campera-IT-02",
+        "titulo": "Campe Milan 2000",
+        "img": "../img/chaquetajuventus.jpg",
+        "categoria": {
+            "nombre": "CamperaIT",
+            "id": "Italia"
+        },
+        "precio": 60
+    },
+    {
+        "id": "Campera-IT-03",
+        "titulo": "Campe Juventus 2004",
+        "img": "../img/chaquetapalermoitalia.jpg",
+        "categoria": {
+            "nombre": "CamperaIT",
+            "id": "Italia"
+        },
+        "precio": 65
+    },
+    {
+        "id": "Campera-IT-04",
+        "titulo": "Campe Palermo 2006",
+        "img": "../img/chaquetaitalia.avif",
+        "categoria": {
+            "nombre": "CamperaIT",
+            "id": "Italia"
+        },
+        "precio": 50
+    },
+    {
+        "id": "Campera-IT-05",
+        "titulo": "Campe Italia 2010",
+        "img": "../img/chaquetajuventus.jpg",
+        "categoria": {
+            "nombre": "CamperaIT",
+            "id": "Italia"
+        },
+        "precio": 35
+    },
+    {
+        "id": "Campera-AR-01",
+        "titulo": "Campe Seleccion Argentina 2021",
+        "img": "../img/Chaqueta-Seleccion-Argentina.jpg",
+        "categoria": {
+            "nombre": "CamperaAR",
+            "id": "Argentina"
+        },
+        "precio": 35
+    },
+    {
+        "id": "Campera-AR-02",
+        "titulo": "Campe Entrenamiento Argentina",
+        "img": "../img/chaquetaarg.jpg",
+        "categoria": {
+            "nombre": "CamperaAR",
+            "id": "Argentina"
+        },
+        "precio": 45
+    },
+    {
+        "id": "Campera-AR-03",
+        "titulo": "Campe Seleccion Argentina 2023",
+        "img": "../img/chaquetaArgentina.avif",
+        "categoria": {
+            "nombre": "CamperaAR",
+            "id": "Argentina"
+        },
+        "precio": 45
+    },
+    {
+        "id": "Campera-FR-01",
+        "titulo": "Campe Francia 2006",
+        "img": "../img/chaquetafrancia2006.jpg",
+        "categoria": {
+            "nombre": "",
+            "id": ""
+        },
+        "precio": 30
+    },
+    {
+        "id": "Campera-FR-02",
+        "titulo": "Campe Francia 2008",
+        "img": "../img/Camiseta-Olympique-Marsella-Primera-Equipación-2021-2022.jpg",
+        "categoria": {
+            "nombre": "CamperaFR",
+            "id": "Francia"
+        },
+        "precio": 35
+    },
+    {
+        "id": "Campera-FR-03",
+        "titulo": "Campe Marsella",
+        "img": "../img/chaquetafrancia2006.jpg",
+        "categoria": {
+            "nombre": "CamperaFR",
+            "id": "Francia"
+        },
+        "precio": 35
+    },
+    {
+        "id": "Campera-FR-04",
+        "titulo": "Campe PSG",
+        "img": "../img/camisetapsg.jpg",
+        "categoria": {
+            "nombre": "CamperaFR",
+            "id": "Francia"
+        },
+        "precio": 40
+    }
+    
+    
+]
