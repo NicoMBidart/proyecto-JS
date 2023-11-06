@@ -13,9 +13,10 @@
 
     <div class="wrapper">
         <aside>
-        <header>
-            <h1 class="logo">Deviajes.com</h1>
-        </header>
+            <header>
+                <img src="../img/LOGONICO-fotor-2023110417524.png" alt="" width="100px" height="100px">
+                  <h1 class="logo">FueraDeJuego.com</h1>
+              </header>
             <nav>
                 <ul>
                     <li><a  class="btn-menu btn-back" href="../index.html">
@@ -29,33 +30,35 @@
                 </ul>
             </nav>
         
-        <footer>
-            <p class="txt-foot">© 2023 Deviajes.com all rights reserved. </p>
-        </footer>
+        
         </aside>
         <main>
-<h2 class="mainTitle">tus elegidos</h2>
+<h2 class="mainTitle">Mi carrito</h2>
 <div class="contenedor-carrito ">
-    <p id="emptyBag" class="empty-bag">Tu carrito esta vacio. Dale vida a tu armario con las novedades</p>
-
-    <div id="carrito-productos" class="carrito-productos disabled">
-  <!-- Se completa con JS-->
+    <div id="emptyBag" class="cart-section">
+        <h2 class="carrito-h2">Tu carrito esta vacío</h2>
+        <p class="carrito-p">Busca la pilcha que más te guste y agregala para disfrutarla en casa</p>
     </div>
-</div>
-    <div id="acciones-carrito" class="carrito-acciones disabled">
-        <button id="carrito-acciones-left" class="carrito-acciones-left">Vaciar carrito</button>
+    
+    <div id="carrito-productos" class="cart-section hidden">
+        
     </div>
-    <div class="carrito-acciones-total ">
-        <div class="carrito-acciones-right">
-            <p>total:</p>
-            <p id="total">0</p>
-        </div>
-        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar-ahora">Comprar ahora</button>
+    
+    <div id="acciones-carrito" class="cart-section hidden">
+        <button id="carrito-acciones-left" class="cart-btn">Eliminar mi compra</button>
+        <span id="total" class="cart-total">Total: $0</span>
+        <button id="carrito-acciones-comprar" class="cart-btn">Comprar</button>
     </div>
-</div>
-<p id="carrito-comprado" class="Compra-lista disabled"><i class="bi bi-check2-all">Gracias por tu compra! En breve nos vamos a comunicar con vos para ultimar detalles.</i></p>
-        </main>
+    
+    <div id="carrito-comprado" class="cart-section hidden">
+        <h2 class="carrito-h2">Buenísimo! Muchas gracias por tu compra</h2>
+        <p class="carrito-p">En unos minutos vas a recibir un email con todos los detalles, y de ser necesario te vamos a llamar. Gracias por comprar en FueraDeJuego.com . Le estas dando una segunda oportunidad a la ropa!</p>
     </div>
+    
+    </div>
+    <footer>
+        <p class="txt-foot">© 2023 FueraDeJuego.com all rights reserved. </p>
+    </footer>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../js/carrito.js"></script>

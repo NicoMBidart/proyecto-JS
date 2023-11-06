@@ -4,7 +4,7 @@
         "titulo": "Campe España 2006",
         "img": "../img/chaquetaespaña2004.jpg",
         "categoria": {
-            "nombre": "CamperaES",
+            "nombre": "Pilchas-España",
             "id": "España"
         },
         "precio": 50
@@ -14,7 +14,7 @@
         "titulo": "Campe España 2007",
         "img": "../img/chaquetaespaña2006.jpg",
         "categoria": {
-            "nombre": "CamperaES",
+            "nombre": "Pilchas-España",
             "id": "España"
         },
         "precio": 50
@@ -24,7 +24,7 @@
         "titulo": "Campe España 2010",
         "img": "../img/chaquetaespaña2007.jpg",
         "categoria": {
-            "nombre": "CamperaES",
+            "nombre": "Pilchas-España",
             "id": "España"
         },
         "precio": 55
@@ -34,7 +34,7 @@
         "titulo": "Campe España Mundial 2006",
         "img": "../img/chaquetaespaña2010.jpg",
         "categoria": {
-            "nombre": "CamperaES",
+            "nombre": "Pilchas-España",
             "id": "España"
         },
         "precio": 55
@@ -44,7 +44,7 @@
         "titulo": "Campe España 2004",
         "img": "../img/chaquetaespaña2007.jpg",
         "categoria": {
-            "nombre": "CamperaES",
+            "nombre": "Pilchas-España",
             "id": "España"
         },
         "precio": 50
@@ -54,7 +54,7 @@
         "titulo": "Campe Inter",
         "img": "../img/chaquetaitalia.avif",
         "categoria": {
-            "nombre": "CamperaIT",
+            "nombre": "Pilchas-Italia",
             "id": "Italia"
         },
         "precio": 45
@@ -64,7 +64,7 @@
         "titulo": "Campe Milan 2000",
         "img": "../img/chaquetajuventus.jpg",
         "categoria": {
-            "nombre": "CamperaIT",
+            "nombre": "Pilchas-Italia",
             "id": "Italia"
         },
         "precio": 60
@@ -74,7 +74,7 @@
         "titulo": "Campe Juventus 2004",
         "img": "../img/chaquetapalermoitalia.jpg",
         "categoria": {
-            "nombre": "CamperaIT",
+            "nombre": "Pilchas-Italia",
             "id": "Italia"
         },
         "precio": 65
@@ -84,7 +84,7 @@
         "titulo": "Campe Palermo 2006",
         "img": "../img/chaquetaitalia.avif",
         "categoria": {
-            "nombre": "CamperaIT",
+            "nombre": "Pilchas-Italia",
             "id": "Italia"
         },
         "precio": 50
@@ -94,7 +94,7 @@
         "titulo": "Campe Italia 2010",
         "img": "../img/chaquetajuventus.jpg",
         "categoria": {
-            "nombre": "CamperaIT",
+            "nombre": "Pilchas-Italia",
             "id": "Italia"
         },
         "precio": 35
@@ -104,7 +104,7 @@
         "titulo": "Campe Seleccion Argentina 2021",
         "img": "../img/Chaqueta-Seleccion-Argentina.jpg",
         "categoria": {
-            "nombre": "CamperaAR",
+            "nombre": "Pilchas-Argentina",
             "id": "Argentina"
         },
         "precio": 35
@@ -114,7 +114,7 @@
         "titulo": "Campe Entrenamiento Argentina",
         "img": "../img/chaquetaarg.jpg",
         "categoria": {
-            "nombre": "CamperaAR",
+            "nombre": "Pilchas-Argentina",
             "id": "Argentina"
         },
         "precio": 45
@@ -124,7 +124,7 @@
         "titulo": "Campe Seleccion Argentina 2023",
         "img": "../img/chaquetaArgentina.avif",
         "categoria": {
-            "nombre": "CamperaAR",
+            "nombre": "Pilchas-Argentina",
             "id": "Argentina"
         },
         "precio": 45
@@ -134,8 +134,8 @@
         "titulo": "Campe Francia 2006",
         "img": "../img/chaquetafrancia2006.jpg",
         "categoria": {
-            "nombre": "",
-            "id": ""
+            "nombre": "Pilchas-Francia",
+            "id": "Francia"
         },
         "precio": 30
     },
@@ -144,7 +144,7 @@
         "titulo": "Campe Francia 2008",
         "img": "../img/Camiseta-Olympique-Marsella-Primera-Equipación-2021-2022.jpg",
         "categoria": {
-            "nombre": "CamperaFR",
+            "nombre": "Pilchas-Francia",
             "id": "Francia"
         },
         "precio": 35
@@ -154,7 +154,7 @@
         "titulo": "Campe Marsella",
         "img": "../img/chaquetafrancia2006.jpg",
         "categoria": {
-            "nombre": "CamperaFR",
+            "nombre": "Pilchas-Francia",
             "id": "Francia"
         },
         "precio": 35
@@ -164,7 +164,7 @@
         "titulo": "Campe PSG",
         "img": "../img/camisetapsg.jpg",
         "categoria": {
-            "nombre": "CamperaFR",
+            "nombre": "Pilchas-Francia",
             "id": "Francia"
         },
         "precio": 40

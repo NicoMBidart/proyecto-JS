@@ -38,11 +38,11 @@ function CargarProductosCarrito (){
         </div>
         <div class="carrito-prod-price">
             <small>Precio</small>
-            <p>${producto.precio}</p>
+            <p>€ ${producto.precio} </p>
         </div>
             <div class="carrito-prod-subtotal">
             <small>Subtotal</small>
-            <p>${producto.precio * producto.cantidad}</p>
+            <p>€ ${producto.precio * producto.cantidad} </p>
         </div>
             <button class="carrito-prod-eliminar" id= "${producto.id}"><i class="bi bi-trash3"></i></button>
         `;
@@ -107,17 +107,17 @@ botonVaciar.addEventListener("click", vaciarCarrito);
 
 function vaciarCarrito (){
     Swal.fire({
-        title: '<strong>Oye...</strong>',
+        title: '<strong>Ups...</strong>',
         icon: 'question',
         html:
-          'de verdad quieres <b>vaciar el carrito?</b> ',
+          'de verdad queres vaciar el carrito?',
         showCloseButton: true,
         showCancelButton: true,
         focusConfirm: false,
         confirmButtonText:
     '<i class="fa fa-thumbs-up"></i> si, quiero cancelar mi compra',
   cancelButtonText:
-    '<i class="fa fa-thumbs-down"></i> No, vamos a seguir comprando',
+    '<i class="fa fa-thumbs-down"></i> No, mejor seguimos comprando',
       }).then((result) => {
         
         if (result.isConfirmed) {
@@ -130,7 +130,7 @@ function vaciarCarrito (){
 
 function actualizarTotal() {
     const totalCalculado = productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0);
-    total.innerText = `$${totalCalculado}`;
+    total.innerText = `€${totalCalculado}`;
 }
 
 botonComprar.addEventListener("click", comprarCarrito);
@@ -138,7 +138,7 @@ function comprarCarrito() {
     Swal.fire({
         position: 'center',
         icon: 'success',
-        title: 'Tu compra ha sido realizada con exito! en breve recibiras un email con los detalles',
+        title: 'Exelente! Gracias por tu compra',
         showConfirmButton: false,
         timer: 1500
       })
