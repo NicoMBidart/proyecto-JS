@@ -11,19 +11,25 @@ const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito-acciones-comprar");
 
 function CargarProductosCarrito (){
+    const productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito"));
     if (productosEnCarrito && productosEnCarrito.length > 0){
 
         
+        mostrarCarritoNoVacio(productosEnCarrito);
+    } else {
+        mostrarCarritoVacio();
+    }
+}
 
-        contenedorCarritoVacio.classList.add("disabled");
-        contenedorCarritoProductos.classList.remove("disabled");
-        contenedorCarritoAcciones.classList.remove("disabled");
-        contenedorCarritoComprado.classList.add("disabled");
-    
-        contenedorCarritoProductos.innerHTML = "";
-    
-        productosEnCarrito.forEach(producto =>{
-    
+function mostrarCarritoNoVacio(productosEnCarrito) {
+    contenedorCarritoVacio.classList.add("disabled");
+    contenedorCarritoProductos.classList.remove("disabled");
+    contenedorCarritoAcciones.classList.remove("disabled");
+    contenedorCarritoComprado.classList.add("disabled");
+
+    contenedorCarritoProductos.innerHTML = "";
+
+    productosEnCarrito.forEach(producto => {
         const div = document.createElement("div");
         div.classList.add("carrito-producto");
         div.innerHTML = `
@@ -47,24 +53,21 @@ function CargarProductosCarrito (){
             <button class="carrito-prod-eliminar" id= "${producto.id}"><i class="bi bi-trash3"></i></button>
         `;
     
-        contenedorCarritoProductos.append(div);
-    
-    })
-    
-    actualizarBotonesEliminar();
-    actualizarTotal();
 
-    }else{
-    
-        contenedorCarritoVacio.classList.remove("disabled");
-        contenedorCarritoProductos.classList.add("disabled");
-        contenedorCarritoAcciones.classList.add("disabled");
-        contenedorCarritoComprado.classList.add("disabled");
-    
-    
-    }
-    
+        contenedorCarritoProductos.append(div);
+    });
+
+    actualizarBotonesEliminar();
+    actualizarTotal(productosEnCarrito);
 }
+
+function mostrarCarritoVacio() {
+    contenedorCarritoVacio.classList.remove("disabled");
+    contenedorCarritoProductos.classList.add("disabled");
+    contenedorCarritoAcciones.classList.add("disabled");
+    contenedorCarritoComprado.classList.add("disabled");
+}
+
 
 CargarProductosCarrito ();
 
@@ -84,11 +87,11 @@ function eliminarDelCarrito (e){
         duration: 3000,
         close: true,
         gravity: "top", 
-        position: "left", 
+        position: "right", 
         stopOnFocus: true, 
         style: {
           background: "linear-gradient(to right, blue, orange)",
-          borderRadius : "2rem",
+        
         },
         onClick: function(){} 
       }).showToast();
