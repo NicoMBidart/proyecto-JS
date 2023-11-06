@@ -83,14 +83,14 @@ function eliminarDelCarrito (e){
         text: "Producto eliminado correctamente",
         duration: 3000,
         close: true,
-        gravity: "top", // `top` or `bottom`
-        position: "left", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
+        gravity: "top", 
+        position: "left", 
+        stopOnFocus: true, 
         style: {
           background: "linear-gradient(to right, blue, orange)",
           borderRadius : "2rem",
         },
-        onClick: function(){} // Callback after click
+        onClick: function(){} 
       }).showToast();
     let idBoton = e.currentTarget.id;
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
@@ -119,7 +119,7 @@ function vaciarCarrito (){
   cancelButtonText:
     '<i class="fa fa-thumbs-down"></i> No, vamos a seguir comprando',
       }).then((result) => {
-        /* Read more about isConfirmed, isDenied below */
+        
         if (result.isConfirmed) {
             productosEnCarrito.length = 0;
             localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
